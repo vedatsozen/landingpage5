@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+* {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  nav {
+    transition: all 0.5s;
+  }
+
+nav > .linkler > a {
+    letter-spacing: 4px;
+}
+
+#logo {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(0);
+    }
+    50% {
+        transform: rotate(360deg) scale(1);
+    }
+    100% {
+        transform: rotate(0deg) scale(0);
+    }
+}
